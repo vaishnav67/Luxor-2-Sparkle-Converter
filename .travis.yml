@@ -1,3 +1,5 @@
 language: cpp
-compiler: g++
-os: windows
+compiler: 
+    - clang
+script:
+    - make
